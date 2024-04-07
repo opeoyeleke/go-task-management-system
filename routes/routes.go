@@ -7,6 +7,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// InitRoutes initializes the routes
 func InitRoutes() {
     router := mux.NewRouter()
 
